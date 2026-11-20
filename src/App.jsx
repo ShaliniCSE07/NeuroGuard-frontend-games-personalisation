@@ -49,16 +49,16 @@ export default function App() {
             <span aria-hidden>{t.icon}</span> {t.label}
           </button>
         ))}
-        
+
         {/* NEW BACK TO DASHBOARD BUTTON */}
-        <a 
-          href="http://localhost:5000" 
+        <a
+          href="https://neuro-guard-frontend-dashboard.vercel.app/"
           style={{
             marginLeft: 'auto', /* Pushes it to the far right */
-            padding: '8px 16px', 
-            backgroundColor: '#E8E3D9', 
-            color: '#3B3A39', 
-            textDecoration: 'none', 
+            padding: '8px 16px',
+            backgroundColor: '#E8E3D9',
+            color: '#3B3A39',
+            textDecoration: 'none',
             borderRadius: '8px',
             fontWeight: 'bold',
             fontSize: '0.9rem'
